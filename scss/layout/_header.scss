@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px solid var(--border-bottom-clr);
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__logo {
+  color: var(--nav-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  display: block;
+  margin-right: 93px;
+}
+.logo__accent {
+  color: var(--accent-color);
+}
