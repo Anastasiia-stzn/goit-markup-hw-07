@@ -2,16 +2,19 @@
   text-decoration: none;
   list-style: none;
   display: flex;
-  gap: 50px;
   position: relative;
 }
 
 .navigation__list {
   padding-left: 0;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 50px;
 }
 
 .navigation__link {
-  display: block;
+  display: flex;
   padding-left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
