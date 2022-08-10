@@ -22,9 +22,10 @@
     ],
     "liveServer.settings.port": 888,
     "files.autoSave": "onFocusChange",
-    "editor.guides.highlightActiveBracketPair": true
-
+    "editor.guides.highlightActiveBracketPair": true,
     "editor.tokenColorCustomizations": {
         "comments": "#d4922f"
     },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": true,
 }

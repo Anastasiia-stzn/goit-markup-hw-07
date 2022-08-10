@@ -21,8 +21,7 @@
   border: 1px solid var(--border-clients-clr);
   color: var(--border-clients-clr);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--animation), border-color var(--animation);
 
   &:hover,
   &:focus {

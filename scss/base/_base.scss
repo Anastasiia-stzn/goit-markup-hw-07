@@ -1,17 +1,16 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    font-family: Roboto, sans-serif;
-    color: var(--main-text-color);
-    background-color: var(--main-bcg-color);
-
+  margin: 0;
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  background-color: var(--main-bcg-color);
 }

@@ -7,8 +7,7 @@
   height: 100%;
   opacity: 1;
   visibility: visible;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--animation), visibility var(--animation);
   background-color: rgba(0, 0, 0, 0.1);
 
   &.is-hidden {
@@ -52,7 +51,7 @@
 
 .modal__icon {
   fill: currentColor;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--animation);
 
   &:hover,
   &:focus {
